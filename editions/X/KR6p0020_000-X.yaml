@@ -1,0 +1,17 @@
+canonical_identifier: bkk:krp/KR6p0020/x/v1/juan/0
+seq: 0
+front:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+body:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 阿彌陀經疏鈔事義
+  edition:
+    short: x
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/X/X22/X22n0425.xml
+    old_id: X22n0425
+hash: sha256:bd662b756fe958d762b17d305b73bd342907e63e16de2e3a8f6a4c7a619dbdad

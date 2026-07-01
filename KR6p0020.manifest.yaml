@@ -1,0 +1,82 @@
+canonical_identifier: bkk:krp/KR6p0020/v1
+canonical_location: https://kanripo.org/bkk/KR6p0020/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 阿彌陀經疏鈔事義
+  identifiers:
+    alt_id:
+    - X22n0425
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/X/X22/X22n0425.xml
+    old_id: X22n0425
+  edition:
+    short: bkk
+editions:
+- short: 卍續
+  label: 卍續
+  source_xml_id: wit.orig
+- short: X
+assets:
+  parts:
+  - {seq: 0, filename: KR6p0020_000.yaml, hash: 'sha256:bd662b756fe958d762b17d305b73bd342907e63e16de2e3a8f6a4c7a619dbdad'}
+  - {seq: 1, filename: KR6p0020_001.yaml, hash: 'sha256:11bdc0f541033c2388b6f9aadec91eb2ae013878756c22fbc53e0b9d2d4bc1c6'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6p0020_001.markers.yaml, hash: 'sha256:c2318f54c5d10197ec156189275d5cdeab6ffe23ee3a88329125c72cdd1a7ee2'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6p0020_X_001-juan-start
+    span:
+    - body
+    - 0
+    - 9435
+  label: 阿彌陀經疏鈔事義
+  type: juan
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6p0020_X_001-mulu-1
+    span:
+    - body
+    - 0
+    - 0
+  label: 第一卷
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6p0020_X_001-mulu-2
+    span:
+    - body
+    - 3331
+    - 3331
+  label: 第二卷
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6p0020_X_001-mulu-3
+    span:
+    - body
+    - 6170
+    - 6170
+  label: 第三卷
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6p0020_X_001-mulu-4
+    span:
+    - body
+    - 8468
+    - 8468
+  label: 第四卷
+  type: mulu
+  level: 1
+hash: sha256:46f4e220f53bc232ce3abb8b37fcd10d116c3bc312a83636c0d7b2cb5b986255
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
