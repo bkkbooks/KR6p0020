@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6p0020/v1
 canonical_location: https://kanripo.org/bkk/KR6p0020/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 阿彌陀經疏鈔事義
   identifiers:
@@ -22,10 +22,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6p0020_000.yaml, hash: 'sha256:bd662b756fe958d762b17d305b73bd342907e63e16de2e3a8f6a4c7a619dbdad'}
-  - {seq: 1, filename: KR6p0020_001.yaml, hash: 'sha256:cba48c3a3b3aba10fd98d640bc81dc83e7ecba96b09a9a2c552d892b25e3304c'}
+  - {seq: 1, filename: KR6p0020_001.yaml, hash: 'sha256:65c5630db227b87096d2fe862b097c1eaaeee635843bac78bc2b6c80e0234726'}
   markers:
   - {seq: 0, role: markers, filename: assets/KR6p0020_000.markers.yaml, hash: 'sha256:70a9fb66783902cddbe3d6c0a8d3787ea36a90938208dd4c807edac7a382415f'}
-  - {seq: 1, role: markers, filename: assets/KR6p0020_001.markers.yaml, hash: 'sha256:76050b3b9daba6946e394a1da306724f17d82d72a3451fbed117517647997922'}
+  - {seq: 1, role: markers, filename: assets/KR6p0020_001.markers.yaml, hash: 'sha256:2450bb5c85c8b91811a33e173332daad9a40c95e8f4556b8b340b558e7d218ca'}
 table_of_contents:
 - ref:
     seq: 1
@@ -77,4 +77,7 @@ table_of_contents:
   label: 第四卷
   type: mulu
   level: 1
-hash: sha256:86af5264b01198cfb904e769612a14daa2e5355cf5801eb17b2b7362a9245366
+hash: sha256:02fd60a51ad88fda963058f2827d478911f390d6ddf7a5abff3b8b0c1aeb4044
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
